@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width:  100vw;
+    min-height: 200vh;
+    background-image: url("https://wallpapersmug.com/download/1920x1080/7820c6/digital-art-mountains-moon-forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.586);
+    padding: 5px 0px 5px 50px;
+    flex-direction: row;   
+}
+.logo img{
+     border-radius: 50%;
+}
+.header_buttons{
+    display: flex;
+    gap: 20px;
+    height: 8vh;
+    width: 20%;
+}
+button{
+    height: 10;
+    background-color: rgb(3, 73, 47);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+        background-color: #414141;
+}
+main{
+    height: 170vh;
+    width: 100%;    
+
+}
+.first_main_container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+.first_main_line{
+    display: flex;
+   padding: 0% 0% 0% 3%;
+    width: 100%;
+   
+}
+.first_main_line h1{
+    font-size: 50px;
+    color: #fefafa;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);    
+}
+.first_main_picture{
+ 
+    transform: translateX(50%);
+    transition: transform 1s ease-in-out;
+
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    & img{
+        border: #302e2e 5px solid;
+        opacity: 0.7;
+    }
+}
+
+.Second_main_buttons{
+    display: flex;
+    gap: 20px;
+    height: 10vh;
+    width: 100%;
+    padding: 0px 10px 0px 19%;
+}
+.Second_main_container{
+    color: #d8d4d4 ;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20% 10px 20%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.586);
+    color: #f6f6f6;
+    flex-direction: column;  
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px 0px 20px;
+
+}
+.social-media img{
+    border-radius: 50%;
+}
