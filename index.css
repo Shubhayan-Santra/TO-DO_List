@@ -33,7 +33,7 @@ header{
 }
 button{
     height: 10;
-    background-color: rgb(3, 73, 47);
+    background-color: #302e2eba;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -45,7 +45,7 @@ button{
     border-radius: 50px;
 }
 button:hover{
-        background-color: #414141;
+        background-color: #302e2e;
 }
 main{
     height: 170vh;
