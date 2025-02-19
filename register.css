@@ -25,7 +25,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     flex-direction: row;     
     & img{
@@ -36,7 +36,7 @@ main{
 }   
 .register{
     display: flex;
-    background-color:rgb(255, 254, 253);
+    background-color:#fbfafa;
     flex-direction: column;  
     height: 75vh;
     width: 30vw;
@@ -44,6 +44,12 @@ main{
     padding: 10px ;
     gap: 40px;
 
+}
+
+.logo img{
+    border-radius: 50%;
+    height: auto;
+    width: 100px; 
 }
 .indicator{
     display: flex;
@@ -79,4 +85,51 @@ main{
         color: #f6f6f6;
     }
 }
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #e60707; 
+    
+    padding: 10px 10px 10px 10px;
+}
    
+.a{
+    
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: row;
+}
+.SignUp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #fcf9f9;
+    position: fixed;
+    top:53%;
+    left: 32%;
+}
+.button{
+    display: flex;
+    gap: 10PX;
+    justify-content: flex-end;
+    align-items: flex-end ;
+    padding: 0PX 0PX 0PX 52%;
+    & button{
+        width: 80px;
+        height: 40px;
+        background-color: #fbfafa;
+        color: #0a0a0a;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;   
+        transition: all 0.3s ease-in-out; 
+    }   
+    & button:hover{    
+        text-decoration: underline;
+       
+    }
+}
